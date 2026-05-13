@@ -301,7 +301,7 @@ Thank you for using AFL Analytics Platform.
           />
 
           <Tabs defaultValue="browse" className="w-full">
-            <TabsList className="grid w-full grid-cols-2">
+            <TabsList className="grid w-full grid-cols-3">
               <TabsTrigger value="browse" className="flex items-center gap-2">
                 <FileText className="w-4 h-4" />
                 Browse Reports
@@ -310,6 +310,9 @@ Thank you for using AFL Analytics Platform.
                 <Download className="w-4 h-4" />
                 Generate New
               </TabsTrigger>
+              <TabsTrigger value="jobs" className="flex items-center gap-2">
+                     Jobs History
+                </TabsTrigger>
             </TabsList>
 
             {/* Browse Reports Tab */}
